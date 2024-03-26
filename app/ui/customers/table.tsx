@@ -5,6 +5,11 @@ import {
   CustomersTableType,
   FormattedCustomersTable,
 } from '@/app/lib/definitions';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Edit',
+};
 
 export default async function CustomersTable({
   customers,
